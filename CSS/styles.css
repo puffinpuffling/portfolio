@@ -14,6 +14,10 @@ a.one:link, a.one:visited {
     color: white;
 }
 
+a.one:hover {
+    color: orange;
+}
+
 a.two:link, a.two.visited {
     color: blue;
 }
