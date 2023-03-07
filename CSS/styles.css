@@ -10,6 +10,41 @@ h1 {
     font-size: 60px;
 }
 
+a.one:link, a.one:visited {
+    color: white;
+}
+
+a.two:link, a.two.visited {
+    color: blue;
+}
+
+.footer-link {
+    padding: 0 10px;
+}
+
+hr {
+    color: #2C3333;
+    border: solid 3px;
+    margin: 0;
+}
+
+p {
+    padding: 0 15%;
+}
+
+.navbar {
+    background-color: #2E4F4F;
+    margin: 0;
+    padding: 10px;
+    display: block;
+
+}
+
+.navlist {
+    display: inline-block;
+    padding: 5px;
+}
+
 .top-container {
     background-color: #CBE4DE;
     position: relative;
@@ -34,4 +69,13 @@ h1 {
     position: absolute;
     right: 300px;
     top: 50px;
+}
+
+.imgsmall {
+    width: 150px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: disc;
 }
