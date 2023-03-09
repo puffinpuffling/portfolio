@@ -18,8 +18,12 @@ a.one:hover {
     color: orange;
 }
 
-a.two:link, a.two.visited {
+a.two:link, a.two:visited {
     color: blue;
+}
+
+a.two:hover {
+    color: orange;
 }
 
 .footer-link {
@@ -33,7 +37,7 @@ hr {
 }
 
 p {
-    padding: 0 15%;
+    padding: 0 35%;
 }
 
 .navbar {
@@ -77,6 +81,11 @@ p {
 
 .imgsmall {
     width: 150px;
+}
+
+.imgmntnadj {
+    position: relative;
+    top: 4px;
 }
 
 ul {
