@@ -19,7 +19,7 @@ a.one:hover {
 }
 
 a.two:link, a.two:visited {
-    color: blue;
+    color: white;
 }
 
 a.two:hover {
@@ -34,6 +34,10 @@ hr {
     color: #2C3333;
     border: solid 3px;
     margin: 0;
+}
+
+.white {
+    color: white;
 }
 
 p {
@@ -64,7 +68,10 @@ p {
 }
 
 .bottom-container {
-
+    background-color: #0E8388;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 .bottomcloud {
